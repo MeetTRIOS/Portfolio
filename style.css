@@ -1,0 +1,285 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  /* font-family: Arial, sans-serif; */
+  /* background-color: rgba(208, 214, 179, 0.282); */
+  background-image: url('Images/background-2819026_1280.jpg');
+  /* background-position: 0.5%;
+  background-size: 100cm; */
+
+}
+
+
+ #home {
+  height: 300px;
+  font-size: 40px;
+  text-align: center;
+} 
+.p-div {
+
+  width: 30rem;
+  align-content:space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  flex: 1 1 35rem;
+  padding-right: 40px;
+  text-align: right;
+ 
+ 
+}
+.align-img
+{
+  flex: 1; 
+  margin-right: 20px; 
+  max-width: 100%;
+  height: auto;    
+}
+.container {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center content */
+  justify-content: space-between; /* Distribute space between elements */
+  padding: 25px; /* Add some padding for spacing */
+}
+
+
+
+/* Style the header and navigation bar */
+header {
+  font-size: 30px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff4500;
+  /* Change the color on hover */
+}
+
+/* Style sections and footer */
+section {
+  padding: 70px;
+  margin: auto;
+}
+
+
+
+footer {
+  
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#p {
+ color: #050505; 
+ font-size: 25px;
+ 
+
+}
+#skills{
+  font-size: 30px;
+  text-align: center;
+}
+
+.social-media{
+	padding: 10px;
+	display: flex;
+	position: center;
+    align-items: space-around;
+	justify-content:center;
+}
+
+.social-media a {
+    margin: 10px;
+    font-size: 2rem;
+    text-align:center;
+    display: inline-block;
+	color: var(--main-fonts-color);
+}
+
+.social-media a i{
+	cursor: pointer;
+}
+
+.social-media  a:hover {
+	color: var(--main-decor-color);
+	text-shadow: 0 0 50px var(--main-decor-color);
+}
+
+
+.skills-container {
+  margin: 0rem 8%;
+  /* background-color: #0b3320; */
+  /* background-color: #d9c8c6; */
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Items wrap to a new line and start from the right when the container height is reduced */
+}
+
+.skills-items {
+  margin: 0.92rem;
+  padding: 20px;
+  border-radius: 1rem;
+  background: rgba(0, 0, 22, 0.9);
+  flex: 0 0 102px;
+
+  /*Flex-grow: 1 (items can grow), Flex-shrink: 0 (items don't shrink), Flex-basis: 100px (initial size of the items) */
+}
+
+.skills-items:hover {
+  background: rgba(0, 138, 25, 0.9);
+  box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+ 
+}
+
+.skills-items-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: azure;
+}
+#about{
+  text-align: center;
+  font-size: 35px;}
+
+.aboutimage {
+  display: flex;
+  float: right;
+  height: 50%;
+  right: 0px;
+  box-shadow: #fff;
+  max-width: 22rem;
+  margin-right: 0rem;
+}
+
+img {
+  border-radius: 15%;
+
+}
+
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(100, end) forwards;
+  color: white;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+/* form edit */
+
+.contact-section {
+  /* background-color: #fff; */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+}
+
+.contact-image {
+  flex: 1;
+  text-align: center;
+}
+
+.contact-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-form {
+  flex: 2;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#success-message {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+  font-size: 18px;
+}
+
+
