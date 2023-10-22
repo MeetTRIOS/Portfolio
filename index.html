@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navid">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1> Meet Kumar Valand</h1>
+        <p class="typing-animation" style="color: black;">
+            Programming | Web Devlopment | QA Tester
+            <div class="social-media">
+                <a href="#" target="_blank"><i class='fab fa-codepen'></i></a>
+                <a href="#" target="_blank"><i class='fab fa-twitter'></i></a>
+                <a href="#" target="_blank"><i class='fab fa-github'></i></a>
+                <a href="#" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+              </div>
+        </p>
+
+    </section>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="container">
+            <div class="p-div">
+                <p id="p">
+                👋 Hello! I'm Meet,Your Software Solution Partner👋<br>
+                    As a dedicated Computer Programming enthusiast,
+                    I bring a versatile skill set to the table.
+                    Here are some of my key strengths:
+                    ✅ Programming Expertise: Proficient in HTML, CSS,
+                    JavaScript,C#, .NET (ASP.NET), Xamarin,
+                    and React.I thrive on turning your ideas
+                    into functional, elegant,
+                    and user-friendly applications.
+                </p>
+
+            </div>
+            <div class="align-img">
+                <img class="aboutimage" src="Images/my.jpeg" />
+
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2 id="skills">Skills & Abilities</h2>
+        <div class="skills-container">
+            <div class="skills-items">
+                <div class="item">
+                    <div class="skills-items-info">
+                        <img src="Images\c-sharp-logo.png" alt="C#" />
+                        <span>C#</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-items">
+                <div class="item">
+                    <div class="skills-items-info">
+                        <img src="Images\dotnet_logo.png" alt="Dot Net Core" />
+                        <span>Dot Net Core</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img width="48" height="48" src="https://img.icons8.com/nolan/64/api-settings.png"
+                            alt="api-settings" />
+                        <span>Web Api</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/windows-10.png"
+                            alt="windows-10" />
+                        <span>WPF</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img src="Images\github-logo.jpg" alt="Github" width="50px" />
+                        <span>Github</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5" />
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3" />
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png"
+                            alt="javascript" />
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img src="Images\angular_logo.png" alt="Angular" />
+                        <span>Angular</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-items">
+                <div>
+                    <div class="skills-items-info">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/azure-1.png" alt="azure-1" />
+                        <span>AzureDevops</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-image">
+                    <img src="Images/contact.jpg" alt="Contact Image">
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Me</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div id="success-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meet</p>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+    </head>
+
+
+</body>
+
+</html>
