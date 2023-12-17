@@ -262,6 +262,7 @@ button:hover {
 
   .aboutimage {
     float: none;
+     max-width: 100%;
   }
 }
 
